@@ -1,0 +1,22 @@
+
+// cookie
+const COOKIE = 'UOR=www.google.com,weibo.com,www.google.com; SINAGLOBAL=4338132263832.2817.1706152961408; SCF=ArWglRaBU6JN5PL7ELI80apvcgat5TFPmr8xn0B985eI5OuLlPSpbCmkYBZ1CZsIdfY3Xac5rT_LD0f4g3JNnDM.; ULV=1719573705312:3:2:2:9477916018732.89.1719573705307:1719199487915; XSRF-TOKEN=qitnHNQwsClaUMRqg3BjrEuT; ALF=1722599241; SUB=_2A25LgUoYDeRhGeFO7VER9yjFzzyIHXVo_8PQrDV8PUJbkNAbLUyjkW1NQU8Zl3KeIniXOWf24sF_ANuz8LQaUc1R; SUBP=0033WrSXqPxfM725Ws9jqgMF55529P9D9WWEo1I3FMiY7Nyzn_8zoia35JpX5KMhUgL.FoM7Soe7S0q4Sh52dJLoIE-LxK-L1K-LBKqLxK-L1K-LBKqLxK-L1K-LBKqNehq0ehMc1KB7; WBPSESS=qnxBuMDoSj4_dh8x6zTWkNqFegztMlt-lR9Vlfv6QO8_vje1Uny0sVxzWhHalG8jxb9JuN69l20XAUNV-Qrfvx49rz4Es0rOj31CZrwdxSJeO0RqowNRkgTfS8BSVFkJZfzHkoWF1Z-Wd1SF5uHoUw=='
+// X-Xsrf-Token
+const X_XSRF_TOKEN = 'y9QpKaobDg-Idhpjqe7e0NDf'
+
+// uid -每个用户的uid不同 例如徐滨uid为6247409403
+const UID = 6247409403
+
+// 获取用户信息的api
+const USER_INFO_URL = 'https://weibo.com/ajax/profile/info'
+
+// 获取微博列表的api
+const USER_BLOG_LIST_URL = 'https://weibo.com/ajax/statuses/mymblog'
+
+export {
+    COOKIE,
+    X_XSRF_TOKEN,
+    UID,
+    USER_BLOG_LIST_URL,
+    USER_INFO_URL
+}
